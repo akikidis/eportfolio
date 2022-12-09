@@ -1,0 +1,241 @@
+<<<<<<< HEAD
+<html>
+       <head>
+    <h3>Collaboration discussion 2</h3>
+    <ul>
+        <p><li>In this page we can find the responses concerning the colaboration discussion posts that were posted by my peers in the student forum </li></p> <p><li>In this topic the students were asked to identify and discuss two security technologies and the context in which they can be employed. Your discussion could consider either network or/and software security issues. For example and explain what are the strengths and weaknesses of the solution.</li></p>
+        <p><li>In this topic the students were asked to identify and discuss two security technologies and the context in which they can be employed. Your discussion could consider either network or/and software security issues. For example and explain what are the strengths and weaknesses of the solution.</li></p>
+        <p><li>Identify and explain the architecture, structure and functionality of basic components of a computer system, considering Cyber Security issues. </li></p>
+        <p><li>Evaluate critically implications of the key vulnerabilities and threats of software and network security and approaches to mitigate these issues.</li></p>
+        <p><li>Afterwards the students had to choose a post from their peers and add some additional comments in the discussion. Bellow you can find the post that I contibuted with additional comments</li>
+      </ul>
+        <table border="1" 
+            bgcolor="WhiteSmoke">
+            <!--style="background-color:#f5f5f5"-->
+            <tr bgcolor="LightSkyBlue">
+                
+                    <th>Authentication and Authorisation</th>
+                    <th>MFA and Honeypot</th>
+                    <th>NFGW and VPNs</th>
+            </tr>
+        </head> 
+        <body>
+            <td valign=top>
+                <p>Since almost everything nowadays is online and almost every company has a cloud data storage where the data can be stored and accessed by the consumers. Authentication and Authorization security processes are commonly used. Both processes are different but mostly used together [1].
+                    <p>Authentication verifies who is the user and requires credentials for the users that could be the password or other information entered/provided by the user while making an account. However this comes with a disadvantage as well, someone can pretend to be a user by stealing credentials of a user. Authentication can be partially changeable by the use such as personal details and password. To make authentication more secured, multi factor authentication is widely used which includes the text message/one time pins or biometrics [2].  Authorization determines the access rights of the user and always takes place after authentication. An organization defines the access rights of a particular user. Users are divided into categories for what type of access they can have. Managers’ level of access is different than the other employees. Authorization is crucial for an organization’s cyber security however it comes with a flaw as well. Authorization can be by-passed if not implemented correctly.  
+                    <p> Encryption is a security technique to store data in the encrypted form (Cipher). A key is used to decrypt the data. Process of encryption and decryption is called cryptography [3]. There are two types of ciphers: Symmetric and Asymmetric. Advanced Encryption Standard (AES) is the most widely used symmetric key cipher.
+
+                    <p>References:
+                    
+                    <p> [1] Article. (2022). [Online] available at: https://learn.microsoft.com/en-us/azure/active-directory/develop/authentication-vs-authorization
+                    <p> [2] Anderson, R. (2020). Biometrics. In Security Engineering, R. Anderson (Ed.).
+                    <p> [3] Anderson, R. (2020). Cryptography. In Security Engineering, R. Anderson (Ed.).hat is the Internet of Things (IoT). Available from: https://www.techtarget.com/iotagenda/definition/Internet-of-Things-IoT  [Accessed on 28/10/2022]    
+   
+        </td>
+            <td valign=top>
+                
+                <p>Identification and authentication are critical parts of cyberspace because protecting valuable data is one of the key priorities of the CIA (confidentiality, integrity, and availability) triad (von Solms, R. 2019, pg 98). A traditional authentication method is used widely by entering a username and password. This standard approach of only using a password carries a higher risk of breaches because credential stuffing is convenient with passwords, as most people might use known credentials. Therefore, OWASP listed Identification and authentication failures in the Top 10 security threats and issues (OWASP, 2021). 
+
+                    <p>Multifactor authentication (MFA) is one tool used to mitigate the shortcomings of the credentials. MFA adds an extra layer of security to the authentication by requiring the users to enter randomly generated one-time passwords or use Hardware (Yubi Key) in addition to the password (Techopedia.com, 2022.). This technology applies to all network or application security sectors where users are verified, from smaller organizations to large ones. For instance, the system sends an SMS with an OTP to the registered phone number. This code is then used to authenticate the user in the system entirely. However, the SMS method is susceptible to Man-in-the-middle-attacks. Thus, many organizations and experts recommend using other forms of MFA for mission-critical systems. Nonetheless, having an SMS MFA method still increases security compared to not having MFA (OWASP Cheat sheets., 2022).
+                    
+                    <p> Nowadays, Advanced Persistent Threats (APT) are increasing stealthily. These threats can disrupt the whole system and steal data. As a result, numerous tools and techniques exist to mitigate such threats. A honeypot is one of the available tools in network security used to monitor and gain valuable information about the activities in a system (Rossow, C, 2021, pg. 31). Honeypot is a system used as a decoy to trick attackers into that they are accessing productive infrastructure and data. In reality, the systems are baits that lure in hackers, and their activities are, in turn, logged for auditing. The logs provide experts with valuable information on what vulnerabilities are still exposed.
+                    
+                    <p>Traditionally an Intrusion Detection System (IDS) and firewalls are used to defend the network. However, more than the tools might be needed, as there are still many unknowns in the system that is hard to foresee. Nonetheless, IDS can be used with a honeypot to improve the system (Mairh, A. et al. 2011, pg .602) by isolating malicious activities and learning from them without affecting the production system. The benefits of implementing a honeypot system are enormous, but the complexity of building them should be considered. Honeypots should resemble the existing system to an attacker, and reconstructing all the functions and systems in a sandbox environment needs lots of time, effort, and financial resources.
+                    
+                    <p> References: 
+                    
+                    <p> von Solms, R. and van Niekerk, J. (2013). From information security to cyber security. Computers & Security, [online] 38, pp.97–102. doi:10.1016/j.cose.2013.04.004.
+                    
+                    <p> OWASP (2021). A07 Identification and Authentication Failures - OWASP Top 10:2021. [online] owasp.org. Available at: https://owasp.org/Top10/A07_2021-Identification_and_Authentication_Failures/ [Accessed 29 Oct. 2022].
+                    
+                    <p>  Techopedia.com. (2022.). What is Multi-Factor Authentication (MFA)? - Definition from Techopedia. [online] Available at: https://www.techopedia.com/definition/13657/multi-factor-authentication-mfa [Accessed 29 Oct. 2022].
+                    
+                    <p> OWASP Cheat sheets. (2022). Multifactor Authentication - OWASP Cheat Sheet Series. [online] Available at: https://cheatsheetseries.owasp.org/cheatsheets/Multifactor_Authentication_Cheat_Sheet.html#sms-messages-and-phone-calls [Accessed 30 Oct. 2022].
+                    
+                    <p> ‌Rossow, C. (2021.). Network Security Knowledge Area Version. [online] Available at: https://www.cybok.org/media/downloads/Network_Security_v2.0.0.pdf [Accessed 30 Oct. 2022].
+                    
+                   <p> Mairh, A., Barik, D., Verma, K. and Jena, D. (2011). Honeypot in network security. Proceedings of the 2011 International Conference on Communication, Computing & Security - ICCCS ’11. doi:10.1145/1947940.1948065.                        </td>
+
+            </td>
+           
+            <td>
+                <p></p>There has been an increase in focus on network system security due to the rapid growth of network and communication technologies (Krit and Haimoud, 2016). Protection against threats like Denial-of-service, Ransomware and Port scanning have emerged as a concerning issues. Before connecting to any network to share information, organisations and governments must carefully consider network security.
+                <p> One option for increasing network security is to use a next-generation firewall, which has more features than traditional firewalls like IPS, URL Filtering, Antivirus, DLP and Anti-spam. Additionally, the NGFW can perform data packet inspections based on the actions and content of the data package so that suspicious data packages can be identified (Soewito and Andhika, 2019). It delivers multi-layered protection by examining traffic from layer 2 to layer 7 and recognizing the fundamentals of data flow at the same time. But It is not a simple process to replace traditional Firewall and implement Next Generation Firewall. The purchase and installation of such a system comes at a significant up-front expense. Also, many business can lack the IT staff or skill set necessary to install and maximise its benefits. The system's initial deployment and configuration  require a lot of time, money and work (Abacus, 2021).
+                <p>  Another technology is  VPN, which creates a network tunnel in a public network using the appropriate encryption technology allowing data to be transmitted securely and prevents others from spying. Tunnelling, encryption, identity verification, key management, and exchange are among the fundamental technologies used in VPNs. As long as we are internet - connected, we can exchange internal network resources through the VPN server, which is one of the simplicity and convenience benefits of VPN. VPN has been commonly employed in large organizations because of these benefits (Xu and Ni, 2020). However, using a VPN isn't always ensure users' privacy or provide them with complete anonymity. In some nations, including North Korea and Iraq, using a VPN is prohibited.
+                <p>  Therefore, it might be difficult to choose network security that satisfies both internal security policy requirements and industry standards and regulations.
+                
+                <p>  Reference:
+                
+                <p> Conference Paper -
+                <p> Krit, S. & Haimoud, E. (2016) ‘Review on the IT security: Attack and defense’, International Conference on Engineering & Mis 2016, Agadir Morocco, 22-24 September. Morocco: University Ibn Zohr. 1-12.   
+                <p>Soewito, B. & Andhika, C.E. (2019) ‘Next generation firewall for improving security in company and iot network’, International Seminar on Intelligent Technology and Its Applications (ISITIA), Indonesia, 28-29 August. Indonesia: Department of Electrical Engineering. 205-9.
+                <p>Xu, Z. & Ni, J. (2020) ‘Research on network security of VPN technology’, International Conference on Information Science and Education (ICISE-IE), China, 4-6 December. USA: IEEE. 539-42.
+                
+                <p>Website -
+                <p>Abacus (2021). Next-Generation Firewalls: Do You Need One? Available from: https://goabacus.com/next-generation-firewalls-do-you-need-one/ [Accessed 28 Oct. 2022].
+                
+                
+            </td>
+            </tr>
+    
+        
+                <tr>
+                    <td valign=top>
+                        <p>Hello Sayam,
+                        <p>Thank you for the post and for clarifying the differences between authentication and authorisation.
+                        <p>I found an interesting post explaining the factors and permissions used in Authentication and Authorisation accordingly and the methods used in each of them.
+                        <p>The factors that are commonly used in Authentication are the knowledge factors, the possession factors and the inherence factors. In short, the knowledge factors are the access codes, PINs and passwords. The possession factors include items than can identify that they belong to a user or to an entity such as key, hardware tokens, smartphones, digital certificates. Finally, the inference factors include biometric characteristics such as face images, fingerprints or any other biometric characteristics.
+                        <p>Authorisation permissions include the role based permissions, device permissions and locate permissions. The role based permissions specify which permissions are granted to a user access in a group. The device permissions provide different permissions to a trusted device such as a corporate laptop compared to a private device. Lastly, the locate permission grant access to an entity or a user based on its location.
+                        <p>Authentication methods include the One time Passwords (OTP), Single Sing-on (SSO), Biometric authentication, Passwords, token authentication, Password-less authentication and Multi-Factor Authentication (MFA).
+                        <p>The authorisation methods includes the Discretional Access Control (DAC), the Mandatory Access Control (MAC), the role-Based Access Control (RBAC) and the Attribute Access control (ABAC)
+
+
+                        <p>Reference
+                        <p>1. Fybish, R. (2022) Available from: https://frontegg.com/blog/authentication-vs-authorization [Accessed 3 November 2022].                 </td>  
+
+                    <td valign=top>
+                        
+                        <p>Thank you Prannoy for the valuable information concerning the Honeypot and the MFA security technologies. I would like to add a few disadvantages related to the MFA and the honeypot.
+                        <p>The honeypot can catch only the malicious events that are designed to capture and only them. Moreover, the honeypots can be easily detected by they fingerprints due to their unique characteristics and their behaviour. It is worth it to mention that, the honeypot cannot replace the firewalls or the Intrusion detection systems (IDS) but as you mentioned it can work as an additional security mechanism in combination with the ones mentioned above.
+                        <p>The MFA seems to be a very effective method to solve simple factor authentication system vulnerabilities. However, there are a few drawbacks such as the the absence of a back up mechanism or the lack of security while performing back ups. On top of this, migrating the credentials of the MFA to new devices does not seem to be an easy job to do. Furthermore, the integration to new devices such as the smartwatches raises some concerns due to the insufficient integrated systems or the faulty MFA mechanism. Finally, the users do not seems to be well adjusted to the MFA because they seem to be obliged to use the MFA or they were not sufficiently trained to use it.
+                        <p>References
+                        <p>1. Titarmare, N., Hargule, N., Gupta, A. (2019) An overview of honeypot systems.International journal of computer sciences and Engineering 7(2): 1-5. DOI: https://doi.org/10.26438.
+                        <p>2. DAS, S. & Wang, B. & Jean Camp, B. (2022) MFA is a waste of time. Understanding negative connotation towards MFA applications via user generated content. International Journal of latest trends in Engineering and Technology. DOI:doi.org/10.48550/arXiv.1908.05902
+                    </td>
+
+                    <td valign=top>
+
+                        <p>Thank you for the insightful information. The VPNs offer a lot of advantages such as bypassing geopolitical restrictions, it improves safety because it provides anonymity, it also provides a secure connection which is ideal for remote work, it also allows customers buying products online to hide their location which keeps unaffected the shady pricing tactics and finally it protects the network from DDoS attacks.
+                        <p>On the other side, the VPN can reduce connection speed, it might also block some existing software applications (this is a known issue for developers) and sometimes it drops the internet connection which is essential for gamers who rely on a fast connection.
+                        <p>The NGFW seems to be a solution to the insufficiency of traditional firewalls. There are a few conditions to consider a firewall as NGFW. Firstly, it should be able to deeply inspect the packets and should be able to scan all files including the encrypted ones for threats. In addition, it should have the ability to provide application intelligence by understanding which packets use http or https ports and what is the function of each application. Moreover, the next-generation firewalls should have good reporting abilities. Furthermore, their performance should not cause an issue as it is expected to perform a deeper analysis of packets at high speed. Finally, they should be easily manageable via a console.
+
+                        <p>References
+                        <p>1. The Advantages & Disadvantages of a VPN. Available from: https://www.cdw.com/content/cdw/en/articles/security/advantages-and-disadvantages-of-vpn.html [Accessed on 4 November 2022].
+                        <p>2. Jaggernauth, E. & Rocke, S. (2021) Effectiveness of Paired Next Generation Firewall in Securing Industrial Automation and Control Systems: A case study. The West Indian Journal of Engineering. 44(1): 4-10.
+                    
+                        </td>
+                </tr>
+            </table>
+        </body>
+</html>
+=======
+<html>
+       <head>
+    <h3>Collaboration discussion 2</h3>
+    <ul>
+        <p><li>In this page we can find the responses concerning the colaboration discussion posts that were posted by my peers in the student forum </li></p> <p><li>In this topic the students were asked to identify and discuss two security technologies and the context in which they can be employed. Your discussion could consider either network or/and software security issues. For example and explain what are the strengths and weaknesses of the solution.</li></p>
+        <p><li>In this topic the students were asked to identify and discuss two security technologies and the context in which they can be employed. Your discussion could consider either network or/and software security issues. For example and explain what are the strengths and weaknesses of the solution.</li></p>
+        <p><li>Identify and explain the architecture, structure and functionality of basic components of a computer system, considering Cyber Security issues. </li></p>
+        <p><li>Evaluate critically implications of the key vulnerabilities and threats of software and network security and approaches to mitigate these issues.</li></p>
+        <p><li>Afterwards the students had to choose a post from their peers and add some additional comments in the discussion. Bellow you can find the post that I contibuted with additional comments</li>
+      </ul>
+        <table border="1" 
+            bgcolor="WhiteSmoke">
+            <!--style="background-color:#f5f5f5"-->
+            <tr bgcolor="LightSkyBlue">
+                
+                    <th>Authentication and Authorisation</th>
+                    <th>MFA and Honeypot</th>
+                    <th>NFGW and VPNs</th>
+            </tr>
+        </head> 
+        <body>
+            <td valign=top>
+                <p>Since almost everything nowadays is online and almost every company has a cloud data storage where the data can be stored and accessed by the consumers. Authentication and Authorization security processes are commonly used. Both processes are different but mostly used together [1].
+                    <p>Authentication verifies who is the user and requires credentials for the users that could be the password or other information entered/provided by the user while making an account. However this comes with a disadvantage as well, someone can pretend to be a user by stealing credentials of a user. Authentication can be partially changeable by the use such as personal details and password. To make authentication more secured, multi factor authentication is widely used which includes the text message/one time pins or biometrics [2].  Authorization determines the access rights of the user and always takes place after authentication. An organization defines the access rights of a particular user. Users are divided into categories for what type of access they can have. Managers’ level of access is different than the other employees. Authorization is crucial for an organization’s cyber security however it comes with a flaw as well. Authorization can be by-passed if not implemented correctly.  
+                    <p> Encryption is a security technique to store data in the encrypted form (Cipher). A key is used to decrypt the data. Process of encryption and decryption is called cryptography [3]. There are two types of ciphers: Symmetric and Asymmetric. Advanced Encryption Standard (AES) is the most widely used symmetric key cipher.
+
+                    <p>References:
+                    
+                    <p> [1] Article. (2022). [Online] available at: https://learn.microsoft.com/en-us/azure/active-directory/develop/authentication-vs-authorization
+                    <p> [2] Anderson, R. (2020). Biometrics. In Security Engineering, R. Anderson (Ed.).
+                    <p> [3] Anderson, R. (2020). Cryptography. In Security Engineering, R. Anderson (Ed.).hat is the Internet of Things (IoT). Available from: https://www.techtarget.com/iotagenda/definition/Internet-of-Things-IoT  [Accessed on 28/10/2022]    
+   
+        </td>
+            <td valign=top>
+                
+                <p>Identification and authentication are critical parts of cyberspace because protecting valuable data is one of the key priorities of the CIA (confidentiality, integrity, and availability) triad (von Solms, R. 2019, pg 98). A traditional authentication method is used widely by entering a username and password. This standard approach of only using a password carries a higher risk of breaches because credential stuffing is convenient with passwords, as most people might use known credentials. Therefore, OWASP listed Identification and authentication failures in the Top 10 security threats and issues (OWASP, 2021). 
+
+                    <p>Multifactor authentication (MFA) is one tool used to mitigate the shortcomings of the credentials. MFA adds an extra layer of security to the authentication by requiring the users to enter randomly generated one-time passwords or use Hardware (Yubi Key) in addition to the password (Techopedia.com, 2022.). This technology applies to all network or application security sectors where users are verified, from smaller organizations to large ones. For instance, the system sends an SMS with an OTP to the registered phone number. This code is then used to authenticate the user in the system entirely. However, the SMS method is susceptible to Man-in-the-middle-attacks. Thus, many organizations and experts recommend using other forms of MFA for mission-critical systems. Nonetheless, having an SMS MFA method still increases security compared to not having MFA (OWASP Cheat sheets., 2022).
+                    
+                    <p> Nowadays, Advanced Persistent Threats (APT) are increasing stealthily. These threats can disrupt the whole system and steal data. As a result, numerous tools and techniques exist to mitigate such threats. A honeypot is one of the available tools in network security used to monitor and gain valuable information about the activities in a system (Rossow, C, 2021, pg. 31). Honeypot is a system used as a decoy to trick attackers into that they are accessing productive infrastructure and data. In reality, the systems are baits that lure in hackers, and their activities are, in turn, logged for auditing. The logs provide experts with valuable information on what vulnerabilities are still exposed.
+                    
+                    <p>Traditionally an Intrusion Detection System (IDS) and firewalls are used to defend the network. However, more than the tools might be needed, as there are still many unknowns in the system that is hard to foresee. Nonetheless, IDS can be used with a honeypot to improve the system (Mairh, A. et al. 2011, pg .602) by isolating malicious activities and learning from them without affecting the production system. The benefits of implementing a honeypot system are enormous, but the complexity of building them should be considered. Honeypots should resemble the existing system to an attacker, and reconstructing all the functions and systems in a sandbox environment needs lots of time, effort, and financial resources.
+                    
+                    <p> References: 
+                    
+                    <p> von Solms, R. and van Niekerk, J. (2013). From information security to cyber security. Computers & Security, [online] 38, pp.97–102. doi:10.1016/j.cose.2013.04.004.
+                    
+                    <p> OWASP (2021). A07 Identification and Authentication Failures - OWASP Top 10:2021. [online] owasp.org. Available at: https://owasp.org/Top10/A07_2021-Identification_and_Authentication_Failures/ [Accessed 29 Oct. 2022].
+                    
+                    <p>  Techopedia.com. (2022.). What is Multi-Factor Authentication (MFA)? - Definition from Techopedia. [online] Available at: https://www.techopedia.com/definition/13657/multi-factor-authentication-mfa [Accessed 29 Oct. 2022].
+                    
+                    <p> OWASP Cheat sheets. (2022). Multifactor Authentication - OWASP Cheat Sheet Series. [online] Available at: https://cheatsheetseries.owasp.org/cheatsheets/Multifactor_Authentication_Cheat_Sheet.html#sms-messages-and-phone-calls [Accessed 30 Oct. 2022].
+                    
+                    <p> ‌Rossow, C. (2021.). Network Security Knowledge Area Version. [online] Available at: https://www.cybok.org/media/downloads/Network_Security_v2.0.0.pdf [Accessed 30 Oct. 2022].
+                    
+                   <p> Mairh, A., Barik, D., Verma, K. and Jena, D. (2011). Honeypot in network security. Proceedings of the 2011 International Conference on Communication, Computing & Security - ICCCS ’11. doi:10.1145/1947940.1948065.                        </td>
+
+            </td>
+           
+            <td>
+                <p></p>There has been an increase in focus on network system security due to the rapid growth of network and communication technologies (Krit and Haimoud, 2016). Protection against threats like Denial-of-service, Ransomware and Port scanning have emerged as a concerning issues. Before connecting to any network to share information, organisations and governments must carefully consider network security.
+                <p> One option for increasing network security is to use a next-generation firewall, which has more features than traditional firewalls like IPS, URL Filtering, Antivirus, DLP and Anti-spam. Additionally, the NGFW can perform data packet inspections based on the actions and content of the data package so that suspicious data packages can be identified (Soewito and Andhika, 2019). It delivers multi-layered protection by examining traffic from layer 2 to layer 7 and recognizing the fundamentals of data flow at the same time. But It is not a simple process to replace traditional Firewall and implement Next Generation Firewall. The purchase and installation of such a system comes at a significant up-front expense. Also, many business can lack the IT staff or skill set necessary to install and maximise its benefits. The system's initial deployment and configuration  require a lot of time, money and work (Abacus, 2021).
+                <p>  Another technology is  VPN, which creates a network tunnel in a public network using the appropriate encryption technology allowing data to be transmitted securely and prevents others from spying. Tunnelling, encryption, identity verification, key management, and exchange are among the fundamental technologies used in VPNs. As long as we are internet - connected, we can exchange internal network resources through the VPN server, which is one of the simplicity and convenience benefits of VPN. VPN has been commonly employed in large organizations because of these benefits (Xu and Ni, 2020). However, using a VPN isn't always ensure users' privacy or provide them with complete anonymity. In some nations, including North Korea and Iraq, using a VPN is prohibited.
+                <p>  Therefore, it might be difficult to choose network security that satisfies both internal security policy requirements and industry standards and regulations.
+                
+                <p>  Reference:
+                
+                <p> Conference Paper -
+                <p> Krit, S. & Haimoud, E. (2016) ‘Review on the IT security: Attack and defense’, International Conference on Engineering & Mis 2016, Agadir Morocco, 22-24 September. Morocco: University Ibn Zohr. 1-12.   
+                <p>Soewito, B. & Andhika, C.E. (2019) ‘Next generation firewall for improving security in company and iot network’, International Seminar on Intelligent Technology and Its Applications (ISITIA), Indonesia, 28-29 August. Indonesia: Department of Electrical Engineering. 205-9.
+                <p>Xu, Z. & Ni, J. (2020) ‘Research on network security of VPN technology’, International Conference on Information Science and Education (ICISE-IE), China, 4-6 December. USA: IEEE. 539-42.
+                
+                <p>Website -
+                <p>Abacus (2021). Next-Generation Firewalls: Do You Need One? Available from: https://goabacus.com/next-generation-firewalls-do-you-need-one/ [Accessed 28 Oct. 2022].
+                
+                
+            </td>
+            </tr>
+    
+        
+                <tr>
+                    <td valign=top>
+                        <p>Hello Sayam,
+                        <p>Thank you for the post and for clarifying the differences between authentication and authorisation.
+                        <p>I found an interesting post explaining the factors and permissions used in Authentication and Authorisation accordingly and the methods used in each of them.
+                        <p>The factors that are commonly used in Authentication are the knowledge factors, the possession factors and the inherence factors. In short, the knowledge factors are the access codes, PINs and passwords. The possession factors include items than can identify that they belong to a user or to an entity such as key, hardware tokens, smartphones, digital certificates. Finally, the inference factors include biometric characteristics such as face images, fingerprints or any other biometric characteristics.
+                        <p>Authorisation permissions include the role based permissions, device permissions and locate permissions. The role based permissions specify which permissions are granted to a user access in a group. The device permissions provide different permissions to a trusted device such as a corporate laptop compared to a private device. Lastly, the locate permission grant access to an entity or a user based on its location.
+                        <p>Authentication methods include the One time Passwords (OTP), Single Sing-on (SSO), Biometric authentication, Passwords, token authentication, Password-less authentication and Multi-Factor Authentication (MFA).
+                        <p>The authorisation methods includes the Discretional Access Control (DAC), the Mandatory Access Control (MAC), the role-Based Access Control (RBAC) and the Attribute Access control (ABAC)
+
+
+                        <p>Reference
+                        <p>1. Fybish, R. (2022) Available from: https://frontegg.com/blog/authentication-vs-authorization [Accessed 3 November 2022].                 </td>  
+
+                    <td valign=top>
+                        
+                        <p>Thank you Prannoy for the valuable information concerning the Honeypot and the MFA security technologies. I would like to add a few disadvantages related to the MFA and the honeypot.
+                        <p>The honeypot can catch only the malicious events that are designed to capture and only them. Moreover, the honeypots can be easily detected by they fingerprints due to their unique characteristics and their behaviour. It is worth it to mention that, the honeypot cannot replace the firewalls or the Intrusion detection systems (IDS) but as you mentioned it can work as an additional security mechanism in combination with the ones mentioned above.
+                        <p>The MFA seems to be a very effective method to solve simple factor authentication system vulnerabilities. However, there are a few drawbacks such as the the absence of a back up mechanism or the lack of security while performing back ups. On top of this, migrating the credentials of the MFA to new devices does not seem to be an easy job to do. Furthermore, the integration to new devices such as the smartwatches raises some concerns due to the insufficient integrated systems or the faulty MFA mechanism. Finally, the users do not seems to be well adjusted to the MFA because they seem to be obliged to use the MFA or they were not sufficiently trained to use it.
+                        <p>References
+                        <p>1. Titarmare, N., Hargule, N., Gupta, A. (2019) An overview of honeypot systems.International journal of computer sciences and Engineering 7(2): 1-5. DOI: https://doi.org/10.26438.
+                        <p>2. DAS, S. & Wang, B. & Jean Camp, B. (2022) MFA is a waste of time. Understanding negative connotation towards MFA applications via user generated content. International Journal of latest trends in Engineering and Technology. DOI:doi.org/10.48550/arXiv.1908.05902
+                    </td>
+
+                    <td valign=top>
+
+                        <p>Thank you for the insightful information. The VPNs offer a lot of advantages such as bypassing geopolitical restrictions, it improves safety because it provides anonymity, it also provides a secure connection which is ideal for remote work, it also allows customers buying products online to hide their location which keeps unaffected the shady pricing tactics and finally it protects the network from DDoS attacks.
+                        <p>On the other side, the VPN can reduce connection speed, it might also block some existing software applications (this is a known issue for developers) and sometimes it drops the internet connection which is essential for gamers who rely on a fast connection.
+                        <p>The NGFW seems to be a solution to the insufficiency of traditional firewalls. There are a few conditions to consider a firewall as NGFW. Firstly, it should be able to deeply inspect the packets and should be able to scan all files including the encrypted ones for threats. In addition, it should have the ability to provide application intelligence by understanding which packets use http or https ports and what is the function of each application. Moreover, the next-generation firewalls should have good reporting abilities. Furthermore, their performance should not cause an issue as it is expected to perform a deeper analysis of packets at high speed. Finally, they should be easily manageable via a console.
+
+                        <p>References
+                        <p>1. The Advantages & Disadvantages of a VPN. Available from: https://www.cdw.com/content/cdw/en/articles/security/advantages-and-disadvantages-of-vpn.html [Accessed on 4 November 2022].
+                        <p>2. Jaggernauth, E. & Rocke, S. (2021) Effectiveness of Paired Next Generation Firewall in Securing Industrial Automation and Control Systems: A case study. The West Indian Journal of Engineering. 44(1): 4-10.
+                    
+                        </td>
+                </tr>
+            </table>
+        </body>
+</html>
+>>>>>>> 60403e62ccd3797bba8aa158a55f18af175dcb14
